@@ -1,2 +1,2 @@
 # AkariDoc
-This is TeX documentation of testing framework of porting Intel intrinsic function to RISC.This is one of solution of Intel architecutre dependency problem. Intel x86-64 is CISC,this has long history and carryes a lot of heritage.CISC like Intel x86-64 is converting CISC instruction to micro op of RISC inside microprosessor.So we need circuit for it and it makes die size large and has a lot of overhead.On the other hand,
+This is TeX documentation of testing framework of porting Intel intrinsic function to RISC.This is one of solution of Intel architecutre dependency problem. 
