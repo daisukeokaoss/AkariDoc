@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.2.19)  19 FEB 2023 11:23
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.11.15)  18 NOV 2023 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,17 +80,25 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 3.
  [1
 
 ]
 (./AkariSpecification.aux) ) 
 Here is how much of TeX's memory you used:
- 650 strings out of 478741
- 10898 string characters out of 5860982
- 311115 words of memory out of 5000000
- 19145 multiletter control sequences out of 15000+600000
- 473991 words of font info for 50 fonts, out of 8000000 for 9000
+ 662 strings out of 478741
+ 11037 string characters out of 5860981
+ 313114 words of memory out of 5000000
+ 19154 multiletter control sequences out of 15000+600000
+ 475158 words of font info for 56 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 41i,5n,48p,495b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,48p,699b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AkariSpecification.dvi (1 page, 1348 bytes).
+Output written on AkariSpecification.dvi (1 page, 1712 bytes).
