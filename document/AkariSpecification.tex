@@ -1,13 +1,14 @@
 \documentclass[dvipdfmx]{jsarticle}
 \begin{document}
+\section{AkariDoc}
+This is TeX documentation of testing framework of porting Intel intrinsic function to RISC-V or ARM or IBM POWER.This is one of solution of Intel architecutre dependency problem.\\
 
-AkariDoc\\
-This is TeX documentation of testing framework of porting Intel intrinsic function to RISC.This is one of solution of Intel architecutre dependency problem.\\
-\\
-Problem\\
-Intel x86-64 is CISC,this has long history and carryes a lot of heritage.CISC like Intel x86-64 is converting CISC instruction to micro op of RISC inside microprosessor.So we need circuit for it and it makes die size large and has a lot of overhead.On the other hand,RISC is relatively new so it carries less heritage and we can use relatively new technology.But we have many source code run only on Intel x86-64.So we need to port Intel x86-64 intrinsic code to RISC.\\
-\\
-Solution\\
-Connect Intel x86-64 and RISC by network. At first local area network.And input Intel intrinsic function and corespondance of that of ported to RISC same value. And make sure it is same.\\
-\\
+\section{Problem}
+Intel x86-64 is CISC,this has long history and carryes a lot of heritage.CISC like Intel x86-64 is converting CISC instruction to micro op of RISC inside microprosessor.So we need circuit for it and it makes die size large and has a lot of overhead.On the other hand,RISC is relatively new so it carries less heritage and we can use relatively new technology.But we have many source code run only on Intel x86-64.So we need to port Intel x86-64 code to RISC.One source of CPU architecture dependency problem is Intel Intrinsic function.This project is intended to port Intel x86-64 intrinsic function to RISC-V or ARM or IBM POWER or other architecture.\\
+
+\section{Solution}
+Connect Intel x86-64 and RISC by network. At first local area network.And input Intel intrinsic function and corespondance of that of ported to RISC same value. And make sure return value is same.\\
+
+
+
 \end{document}
