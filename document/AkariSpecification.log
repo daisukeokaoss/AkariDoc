@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.11.15)  18 NOV 2023 08:35
+This is e-pTeX, Version 3.141592653-p3.9.1-210218-2.6 (utf8.euc) (TeX Live 2022/dev/Debian) (preloaded format=platex 2023.11.15)  18 NOV 2023 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -47,58 +47,115 @@ LaTeX Info: Redefining \LaTeXe on input line 188.
 )
 \heisei=\count192
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\lst@mode=\count193
+\lst@gtempboxa=\box68
+\lst@token=\toks18
+\lst@length=\count194
+\lst@currlwidth=\dimen160
+\lst@column=\count195
+\lst@pos=\count196
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count197
+\lst@lineno=\count198
+\lst@maxwidth=\dimen163
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/jvlisting/jvlisting.sty
+Package: jvlisting 2011/11/17 v0.7 Formatted Program Listings
+\jvl@idt=\count267
+\jvl@tmphyphenchar=\count268
+\jvl@fileinput=\read2
+\listingskipamount=\skip50
+\listingindent=\dimen164
+\prelistingpenalty=\count269
+\listingpenalty=\count270
+\postlistingpenalty=\count271
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2022-01-12 L3 backend support: dvipdfmx
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count193
-\l__color_backend_stack_int=\count194
-\g__color_backend_stack_int=\count195
-\g__graphics_track_int=\count196
-\l__pdf_internal_box=\box68
-\g__pdf_backend_object_int=\count197
-\g__pdf_backend_annotation_int=\count198
-\g__pdf_backend_link_int=\count199
+\c__kernel_sys_dvipdfmx_version_int=\count272
+\l__color_backend_stack_int=\count273
+\g__color_backend_stack_int=\count274
+\g__graphics_track_int=\count275
+\l__pdf_internal_box=\box70
+\g__pdf_backend_object_int=\count276
+\g__pdf_backend_annotation_int=\count277
+\g__pdf_backend_link_int=\count278
 ) (./AkariSpecification.aux)
 \openout1 = `AkariSpecification.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 2.
-LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+\c@lstlisting=\count279
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
+(Font)              scaled to size 13.83836pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
+(Font)              scaled to size 13.83836pt on input line 22.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
+(Font)              scaled to size 13.83836pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 3.
+(Font)              scaled to size 13.83836pt on input line 22.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 41.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 41.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 41.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 41.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 42.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 42.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 42.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 42.
  [1
 
-]
+] [2]
 (./AkariSpecification.aux) ) 
 Here is how much of TeX's memory you used:
- 662 strings out of 478741
- 11037 string characters out of 5860981
- 313114 words of memory out of 5000000
- 19154 multiletter control sequences out of 15000+600000
- 475158 words of font info for 56 fonts, out of 8000000 for 9000
+ 2406 strings out of 478741
+ 35027 string characters out of 5860981
+ 376000 words of memory out of 5000000
+ 20876 multiletter control sequences out of 15000+600000
+ 476749 words of font info for 66 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 41i,5n,48p,699b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,6n,48p,699b,1193s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AkariSpecification.dvi (1 page, 1712 bytes).
+Output written on AkariSpecification.dvi (2 pages, 3708 bytes).

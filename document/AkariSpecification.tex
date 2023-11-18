@@ -1,4 +1,23 @@
 \documentclass[dvipdfmx]{jsarticle}
+\usepackage{listings,jvlisting} 
+\lstset{
+  basicstyle={\ttfamily},
+  identifierstyle={\small},
+  commentstyle={\smallitshape},
+  keywordstyle={\small\bfseries},
+  ndkeywordstyle={\small},
+  stringstyle={\small\ttfamily},
+  frame={tb},
+  breaklines=true,
+  columns=[l]{fullflexible},
+  numbers=left,
+  xrightmargin=0zw,
+  xleftmargin=3zw,
+  numberstyle={\scriptsize},
+  stepnumber=1,
+  numbersep=1zw,
+  lineskip=-0.5ex
+}
 \begin{document}
 \section{AkariDoc}
 This is TeX documentation of testing framework of porting Intel intrinsic function to RISC-V or ARM or IBM POWER.This is one of solution of Intel architecutre dependency problem.\\
@@ -9,6 +28,21 @@ Intel x86-64 is CISC,this has long history and carryes a lot of heritage.CISC li
 \section{Solution}
 Connect Intel x86-64 and RISC by network. At first local area network.And input Intel intrinsic function and corespondance of that of ported to RISC same value. And make sure return value is same.\\
 
+\section{CPU architecture dependency problem!!}
+We are using Intel x86-64 PC or server.Most cloud server use Intel x86-64 CPU.But Intel x86-64 is not power efficient and it's performance is not good.But Why we are using x86-64? Because we have a lot of software assets runs on x86-64 in this world.
+
+Most software assets is written by C language.We can understand assembler is CPU architecture dependent but by C language is too? C language can be compiled both RISC-V and ARM and Intel.The source of CPU architecture dependency is Intel Intrinsic function.This is "Intel" intrinsic function so it only runs on Intel x86-64, not RISC-V or ARM or IBM POWER.
+
+But How to port Intel intrinsic function to other platform?The porting process need few ingenuity and great effort.Make wrapping structure like below.
 
 
+
+
+\begin{lstlisting}[caption=hoge,label=fuga]
+    extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__,__artificial__))
+    _mm_add_pd (__m128d __A, __m128d __B)
+    {
+       return (__m128d) ((__v2df)__A + (__v2df)__B);
+    }
+\end{lstlisting}
 \end{document}
