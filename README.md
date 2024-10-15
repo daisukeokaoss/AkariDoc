@@ -8,7 +8,17 @@ This project aim to port and optimize Intel x86-64 Intrinsic function to OpenPOW
 # Solution strategy
  Out solution for software architecture dependency problem is not convert Inte x86 machine code to RISC architecture. Intel intrinsic function is Intel x86-64 dependent because it enable for C language to access SIMD capability of Intel x86-64.Our solution is to make enable to run Intel Intrinsic function on RISC arcutecture. It uses unique wrap structure.
 
+ one of example are shown below.
+ 
+ ```c
+extern __inline __m128d __attribute__((__gnu_inline__, __always_inline__,__artificial__))
+_mm_add_pd (__m128d __A, __m128d __B)
+{
+   return (__m128d) ((__v2df)__A + (__v2df)__B);
+}
+```
+
 
 Reference
-"Linux on Power Porting Guide"
+"Linux on Power Porting Guide"  
 https://openpowerfoundation.org/specifications/vectorintrinsicportingguide/
