@@ -33,3 +33,7 @@ The reason we do not use network is one is security reason.These operation may b
 Reference
 "Linux on Power Porting Guide"  
 https://openpowerfoundation.org/specifications/vectorintrinsicportingguide/
+
+
+This picture is mascot of Testing framework Akari.
+![Picture of Akari](AkariMascot.jpeg "Akari")
