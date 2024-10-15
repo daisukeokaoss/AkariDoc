@@ -35,5 +35,5 @@ Reference
 https://openpowerfoundation.org/specifications/vectorintrinsicportingguide/
 
 
-This picture is mascot of Testing framework Akari.
+This picture is mascot of Testing framework Akari. Japanese Kimono and Japanese animal musasabi.
 ![Picture of Akari](AkariMascot.jpeg "Akari")
