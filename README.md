@@ -18,6 +18,8 @@ _mm_add_pd (__m128d __A, __m128d __B)
 }
 ```
 
+The source code shown above is one of example of port Intel x8-64 Intrinsic function to OpenPOWER.`_mm_add_pd` is one of Intel Intrinsic function name.
+
 
 Reference
 "Linux on Power Porting Guide"  
