@@ -21,13 +21,13 @@ _mm_add_pd (__m128d __A, __m128d __B)
 The source code shown above is one of example of port Intel x8-64 Intrinsic function to OpenPOWER.`_mm_add_pd` is one of Intel Intrinsic function name.
 
 One question arises when writing these port code. "These source code is really correct?" In many cases "no" and it leads to horrible result.Then we need open source testing framework for this.  
-This testing framework functionality is written below.
+This testing framework functionality is written below.  
 
-1, Generate random __m128d value and input `_mm_add_pd` of Intel x86-64 and that of ported to RISC like architecture by inputing __A and __B. Value of __m128d of Intel and RISC must be same
-2, Compare return value of Intrinsic funciton of Intel x86-64 and RISC. And make sure its same. If value are same,porting code may be correct.If these value are different,Error exist.
+1, Generate random __m128d value and input `_mm_add_pd` of Intel x86-64 and that of ported to RISC like architecture by inputing __A and __B. Value of __m128d of Intel and RISC must be same  
+2, Compare return value of Intrinsic funciton of Intel x86-64 and RISC. And make sure its same. If value are same,porting code may be correct.If these value are different,Error exist.  
 
-I think these operation must be executed by file transfer, not network connection.If Intel and RISC are in same place. USB memory or portable HDD may be used to transfer data.
-The reason we do not use network is one is security reason.These operation may be vulnerable.
+I think these operation must be executed by file transfer, not network connection.If Intel and RISC are in same place. USB memory or portable HDD may be used to transfer data.  
+The reason we do not use network is one is security reason.These operation may be vulnerable.  
 
 
 Reference
