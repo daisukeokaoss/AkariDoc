@@ -6,7 +6,7 @@ This project aim to port and optimize Intel x86-64 Intrinsic function to OpenPOW
  Currently, a lot of Intel x86-64 arcutecture is running in PC or cloud server or supercomputer.The reason why we use Intel x86-64 architecture is software compatibility.
 
 # Solution strategy
- Out solution for software architecture dependency problem is not convert Inte x86 machine code to RISC architecture. Intel intrinsic function is Intel x86-64 dependent because it enable for C language to access SIMD capability of Intel x86-64.Our solution is to make enable to run Intel Intrinsic function on RISC arcutecture. It uses unique wrap structure.
+ Out solution for software architecture dependency problem is not convert Inte x86 machine code to RISC architecture. Intel intrinsic function is Intel x86-64 dependent because it enable for C language to access SIMD capability of Intel x86-64.Our solution is to make enable to run Intel Intrinsic function on RISC arcutecture. It uses unique wrap structure. The age of ending Moors law,the next advancement of computer technology are RISC-V and other RISC like architecture and other related technology.
 
  one of example are shown below.
  
